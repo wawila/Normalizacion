@@ -1,6 +1,7 @@
 ﻿namespace Ejercicio1.spec
 {
-    internal interface IAlumnoRepositorio
+    public interface IAlumnoRepositorio
     {
+        void Agregar(Alumno alumno);
     }
 }

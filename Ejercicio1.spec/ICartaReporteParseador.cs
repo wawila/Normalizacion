@@ -1,6 +1,9 @@
-﻿namespace Ejercicio1.spec
+﻿using System.Collections.Generic;
+
+namespace Ejercicio1.spec
 {
-    internal interface ICartaReporteParseador
+    public interface ICartaReporteParseador
     {
+        IEnumerable<HojaElectronicaEntrada> Parsear();
     }
 }

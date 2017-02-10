@@ -62,6 +62,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="HojaElectronicaEntrada.cs" />
     <Compile Include="IAlumnoRepositorio.cs" />
     <Compile Include="ICartaReporteParseador.cs" />
     <Compile Include="IMateriaRepositorio.cs" />

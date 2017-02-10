@@ -1,6 +1,7 @@
 ﻿namespace Ejercicio1.spec
 {
-    internal interface INotaRepositorio
+    public interface INotaRepositorio
     {
+        void Agregar(Notas notas);
     }
 }
